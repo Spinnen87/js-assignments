@@ -242,7 +242,8 @@ function reverseString(str) {
  *   34143 => 34143
  */
 function reverseInteger(num) {
-    throw new Error('Not implemented');
+    let s  = ''+num;
+    return + s.split('').reverse().join('');
 }
 
 
